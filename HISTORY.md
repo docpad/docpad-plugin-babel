@@ -1,5 +1,8 @@
 ## History
 
+v2.0.3 September 9, 2015
+	- Cleanup by jking90
+
 v2.0.2 September 9, 2015
 	- Removed superfluous files
 
