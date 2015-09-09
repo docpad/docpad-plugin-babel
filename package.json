@@ -18,7 +18,11 @@
   ],
   "author": "William Malo http://github.com/williammalo",
   "maintainers": [
-    "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)",
+    "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)"
+  ],
+  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+  "maintainers": [
+    "Your name <your email> (your github url)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
@@ -31,7 +35,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/williammalo/docpad-plugin-babel.git"
-  },
+  ],
   "engines": {
     "node": ">=0.8"
   },
@@ -47,4 +51,10 @@
     "projectz": "^0.5.0"
   },
   "main": "./out/babel.plugin.js"
+  "scripts": {
+    "test": "node ./out/yourpluginname.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  }
 }
