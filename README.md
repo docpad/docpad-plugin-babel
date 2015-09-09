@@ -9,7 +9,7 @@ Convention:  `.js.babel`
 ## Install
 
 ``` bash
-docpad install babel;
+docpad install babel
 ```
 
 <!-- /INSTALL -->
