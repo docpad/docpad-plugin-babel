@@ -38,10 +38,7 @@ docpad install babel
 
 ### Maintainers
 
-These amazing people are maintaining this project:
-
-- Your name <your email> (your github url)
-- Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)
+- William Malo <williammalo2@gmail.com> (https://github.com/williammalo/)
 
 ### Sponsors
 
@@ -57,7 +54,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-- [Jimmy King](https://github.com/balupton) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=jking90)
+- [Jimmy King](https://github.com/jking90) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=jking90)
 
 [Become a contributor!](https://github.com/williammalo/docpad-plugin-babel/blob/master/CONTRIBUTING.md#files)
 
@@ -70,6 +67,6 @@ These amazing people have contributed code to this project:
 
 Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT license](http://creativecommons.org/licenses/MIT/)
 
-Copyright &copy; Copyright holders name <copyright holder's email> (copyright holder's website url)
+Copyright &copy; William Malo williammalo2@gmail.com (maloweb.com/en)
 
 <!-- /LICENSE -->
