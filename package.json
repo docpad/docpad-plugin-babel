@@ -20,14 +20,8 @@
   "maintainers": [
     "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)"
   ],
-  "maintainers": [
-    "Your name <your email> (your github url)",
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-  ],
   "contributors": [
-    "balupton (https://github.com/balupton)",
     "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
-    "williammalo (https://github.com/williammalo)"
   ],
   "bugs": {
     "url": "https://github.com/williammalo/docpad-plugin-babel/issues"

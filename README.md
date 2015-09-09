@@ -4,8 +4,6 @@ Compiles es-next into es5 with [babel](http://babeljs.io)
 
 Convention:  `.js.babel`
 
-# YourPluginName Plugin for [DocPad](http://docpad.org)
-
 <!-- INSTALL/ -->
 
 ## Install
@@ -20,7 +18,7 @@ docpad install babel
 <!-- HISTORY/ -->
 
 ## History
-[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-yourpluginname/blob/master/HISTORY.md#files)
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/williammalo/docpad-plugin-babel/blob/master/HISTORY.md#files)
 
 <!-- /HISTORY -->
 
@@ -29,7 +27,7 @@ docpad install babel
 
 ## Contribute
 
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-yourpluginname/blob/master/CONTRIBUTING.md#files)
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/williammalo/docpad-plugin-babel/blob/master/CONTRIBUTING.md#files)
 
 <!-- /CONTRIBUTE -->
 
@@ -59,10 +57,9 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-- [balupton](https://github.com/balupton) — [view contributions](https://github.com/docpad/docpad-plugin-yourpluginname/commits?author=balupton)
-- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/docpad/docpad-plugin-yourpluginname/commits?author=RobLoach)
+- [Jimmy King](https://github.com/balupton) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=jking90)
 
-[Become a contributor!](https://github.com/docpad/docpad-plugin-yourpluginname/blob/master/CONTRIBUTING.md#files)
+[Become a contributor!](https://github.com/williammalo/docpad-plugin-babel/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
