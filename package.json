@@ -1,0 +1,49 @@
+{
+  "name": "docpad-plugin-babel",
+  "version": "2.0.0",
+  "description": "DocPad plugin to compile es-next to es5 using babel",
+  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "license": {
+    "type": "MIT"
+  },
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "babel",
+    "es6",
+    "javascript",
+    "js",
+    "es next",
+    "transpiler"
+  ],
+  "author": "William Malo http://github.com/williammalo",
+  "maintainers": [
+    "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)",
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "balupton (https://github.com/balupton)",
+    "williammalo (https://github.com/williammalo)"
+  ],
+  "bugs": {
+    "url": "https://github.com/williammalo/docpad-plugin-babel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williammalo/docpad-plugin-babel.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "coffee-script": "^1.9.1",
+    "docpad": "6",
+    "projectz": "^0.5.0"
+  },
+  "main": "./out/babel.plugin.js"
+}
