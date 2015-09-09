@@ -2,7 +2,7 @@
   "name": "docpad-plugin-babel",
   "version": "2.0.1",
   "description": "DocPad plugin to compile es-next to es5 using babel",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "homepage": "https://github.com/williammalo/docpad-plugin-babel",
   "license": {
     "type": "MIT"
   },
@@ -16,17 +16,17 @@
     "es next",
     "transpiler"
   ],
-  "author": "William Malo http://github.com/williammalo",
+  "author": "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)",
   "maintainers": [
     "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)"
   ],
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
   "maintainers": [
     "Your name <your email> (your github url)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
     "balupton (https://github.com/balupton)",
+    "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
     "williammalo (https://github.com/williammalo)"
   ],
   "bugs": {
@@ -35,7 +35,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/williammalo/docpad-plugin-babel.git"
-  ],
+  },
   "engines": {
     "node": ">=0.8"
   },
@@ -50,9 +50,9 @@
     "docpad": "6",
     "projectz": "^0.5.0"
   },
-  "main": "./out/babel.plugin.js"
+  "main": "./out/babel.plugin.js",
   "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
+    "test": "node ./out/babel.test.js"
   },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"

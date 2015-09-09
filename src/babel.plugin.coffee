@@ -1,9 +1,10 @@
+babel = require('babel-core')
 # Export Plugin
 module.exports = (BasePlugin) ->
 	# Define Plugin
-	class YourpluginnamePlugin extends BasePlugin
+	class BabelPlugin extends BasePlugin
 		# Plugin name
-		name: 'yourpluginname'
+		name: 'babel'
 
 		# Render
 		# Called per document, for each extension conversion. Used to render one extension to another.
@@ -12,10 +13,10 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension,file} = opts
 
 			# Upper case the text document's content if it is using the convention txt.(uc|uppercase)
-			if inExtension in ['uc','uppercase'] and outExtension in ['txt',null]
+			if inExtension in ['es6','babel'] and outExtension in ['js',null]
 
 				# Render synchronously
-				opts.content = opts.content.toUpperCase()
+				opts.content = babel.transform(opts.content, {}).code;
 
 			# Done
 			return
