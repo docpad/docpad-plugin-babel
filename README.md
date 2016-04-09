@@ -2,7 +2,7 @@
 
 Compiles es-next into es5 with [babel](http://babeljs.io)
 
-Convention:  `.js.babel`
+Conventions:  `.js.babel` and `.jsx.babel`
 
 <!-- INSTALL/ -->
 
