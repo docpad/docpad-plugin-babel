@@ -13,7 +13,7 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension,file} = opts
 
 			# Upper case the text document's content if it is using the convention txt.(uc|uppercase)
-			if inExtension in ['es6','babel'] and outExtension in ['js',null]
+			if inExtension in ['es6','babel'] and outExtension in ['js','jsx',null]
 
 				# Render synchronously
 				opts.content = babel.transform(opts.content, {}).code;
