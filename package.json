@@ -38,7 +38,7 @@
     "docpad": "6"
   },
   "dependencies": {
-    "babel-core": "^5.8.23"
+    "babel-core": "^6.7.6"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
