@@ -22,6 +22,7 @@
   ],
   "contributors": [
     "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
+    "Michael Duane Mooring <mike@mdm.cc> (http://mikeum.us)"
   ],
   "bugs": {
     "url": "https://github.com/williammalo/docpad-plugin-babel/issues"
@@ -37,7 +38,7 @@
     "docpad": "6"
   },
   "dependencies": {
-    "babel-core": "^5.8.23"
+    "babel-core": "^6.7.6"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
