@@ -14,6 +14,23 @@ docpad install babel
 
 <!-- /INSTALL -->
 
+<!-- ERRORS/ -->
+
+### Common Errors
+
+- ERROR: **`require is not defined`** error when using ES6 `import` statements:
+ - This is fixed easily with the [docplad-plugin-browserifydocs](https://github.com/docpad/docpad-plugin-browserifydocs) plugin:
+   - `docpad install browserifydocs`
+    - Add this to the top of your `.js.babel` file : 
+  <pre>
+			```
+			---
+			browserify: true
+			---
+			```
+  </pre>
+  
+<!-- /ERRORS -->
 
 <!-- HISTORY/ -->
 
@@ -55,6 +72,8 @@ No sponsors yet! Will you be the first?
 These amazing people have contributed code to this project:
 
 - [Jimmy King](https://github.com/jking90) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=jking90)
+
+- [Michael Duane Mooring](https://github.com/mikeumus) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=mikeumus)
 
 [Become a contributor!](https://github.com/williammalo/docpad-plugin-babel/blob/master/CONTRIBUTING.md#files)
 
