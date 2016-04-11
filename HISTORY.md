@@ -1,5 +1,12 @@
 ## History
 
+v2.1.1 April 11, 2016
+	- Put "out" folder back in the project (oups!)
+
+v2.1.0 April 11, 2016
+	- added jsx test files
+	- increased babel version to 6.7.5
+
 v2.0.5 September 9, 2015
 	- Added opinionated default options to babel
 
