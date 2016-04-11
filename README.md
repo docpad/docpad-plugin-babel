@@ -73,6 +73,8 @@ These amazing people have contributed code to this project:
 
 - [Jimmy King](https://github.com/jking90) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=jking90)
 
+- [Michael Duane Mooring](https://github.com/mikeumus) — [view contributions](https://github.com/williammalo/docpad-plugin-babel/commits?author=mikeumus)
+
 [Become a contributor!](https://github.com/williammalo/docpad-plugin-babel/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
