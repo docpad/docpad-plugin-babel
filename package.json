@@ -3,9 +3,7 @@
   "version": "2.0.5",
   "description": "DocPad plugin to compile es-next to es5 using babel",
   "homepage": "https://github.com/williammalo/docpad-plugin-babel",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -38,7 +36,10 @@
     "docpad": "6"
   },
   "dependencies": {
-    "babel-core": "^6.7.5"
+    "babel-core": "^6.7.5",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
