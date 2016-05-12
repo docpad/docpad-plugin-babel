@@ -16,7 +16,7 @@ module.exports = (BasePlugin) ->
       if inExtension in ['es6','babel'] and outExtension in ['js',null]
 
         # Render synchronously
-        opts.content = babel.transform(opts.content, { ast: false, compact: true, comments: false, presets: ['es2015', 'react'], plugins: ['transform-react-jsx'] }).code;
+        opts.content = babel.transform(opts.content, { ast: false, compact: true, comments: false, presets: ['es2015', 'react']}).code;
 
       # Done
       return
