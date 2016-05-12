@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-babel",
-  "version": "2.1.2",
+  "version": "2.2.1",
   "description": "DocPad plugin to compile es-next to es5 using babel",
   "homepage": "https://github.com/williammalo/docpad-plugin-babel",
   "license": "MIT",
@@ -12,6 +12,8 @@
     "javascript",
     "js",
     "es next",
+    "es 2015",
+    "react",
     "transpiler"
   ],
   "author": "William Malo <williammalo2@gmail.com> (http://github.com/williammalo)",

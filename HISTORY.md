@@ -1,5 +1,11 @@
 ## History
 
+v2.2.1 May 12, 2016
+	- fixed readme and history
+
+v2.2.0 May 12, 2016
+	- Added es2015 and react presets
+
 v2.1.1 April 11, 2016
 	- Put "out" folder back in the project (oups!)
 
