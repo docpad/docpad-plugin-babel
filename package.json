@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-babel",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "DocPad plugin to compile es-next to es5 using babel",
   "homepage": "https://github.com/williammalo/docpad-plugin-babel",
   "license": "MIT",
@@ -20,7 +20,8 @@
   ],
   "contributors": [
     "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
-    "Michael Duane Mooring <mike@mdm.cc> (http://mikeum.us)"
+    "Michael Duane Mooring <mike@mdm.cc> (http://mikeum.us)",
+    "Sebastian Domagala <sebdom93@gmail.com> (https://github.com/sdomagala)"
   ],
   "bugs": {
     "url": "https://github.com/williammalo/docpad-plugin-babel/issues"
