@@ -23,7 +23,8 @@
   "contributors": [
     "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
     "Michael Duane Mooring <mike@mdm.cc> (http://mikeum.us)",
-    "Sebastian Domagala <sebdom93@gmail.com> (https://github.com/sdomagala)"
+    "Sebastian Domagala <sebdom93@gmail.com> (https://github.com/sdomagala)",
+    "Guilherme Ventura <guilhermeventura2@gmail.com> (https://github.com/danguilherme)"
   ],
   "bugs": {
     "url": "https://github.com/williammalo/docpad-plugin-babel/issues"
