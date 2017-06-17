@@ -5,6 +5,10 @@ module.exports = (BasePlugin) ->
   class BabelPlugin extends BasePlugin
     # Plugin name
     name: 'babel'
+    config:
+      compact: true
+      comments: false
+      ast: false
 
     # Render
     # Called per document, for each extension conversion. Used to render one extension to another.
@@ -16,7 +20,7 @@ module.exports = (BasePlugin) ->
       if inExtension in ['es6','babel'] and outExtension in ['js',null]
 
         # Render synchronously
-        opts.content = babel.transform(opts.content, { ast: false, compact: true, comments: false, presets: ['es2015', 'react']}).code;
+        opts.content = babel.transform(opts.content, Object.assign({}, @config, { presets: ['es2015', 'react']})).code;
 
       # Done
       return
