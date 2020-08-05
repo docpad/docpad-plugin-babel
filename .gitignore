@@ -1,19 +1,57 @@
-.DS_Store
-# v1.3.10 December 10, 2013
+# 2020 June 3
 # https://github.com/bevry/base
 
-# Temp Files
-**/*.log
-**/.docpad.db
+# System Files
+**/.DS_Store
 
-# Build Files
-build/
-components/
-bower_components/
-node_modules/
-out/
+# Temp Files
+**/.docpad.db
+**/*.log
+**/*.cpuprofile
+**/*.heapsnapshot
+
+# Editor Files
+.c9/
+.vscode/
+
+# Yarn Files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.pnp/
 
 # Private Files
 .env
 .idea
 .cake_task_cache
+
+# Build Caches
+build/
+bower_components/
+node_modules/
+.next/
+
+# -------------------------------------
+# CDN Inclusions, Git Exclusions
+
+# Build Outputs
+**/out.*
+**/*.out.*
+**/out/
+**/output/
+*compiled*
+edition*/
+coffeejs/
+coffee/
+es5/
+es2015/
+esnext/
+docs/
+
+# =====================================
+# CUSTOM
+
+.now

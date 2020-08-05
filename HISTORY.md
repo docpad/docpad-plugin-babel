@@ -1,32 +1,47 @@
-## History
+# History
 
-v2.2.1 May 12, 2016
-	- fixed readme and history
+## v2.3.0 2020 August 5
 
-v2.2.0 May 12, 2016
-	- Added es2015 and react presets
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+-   Minimum required node version changed from `node: >=0.8` to `node: >=10` to keep up with mandatory ecosystem changes
 
-v2.1.1 April 11, 2016
-	- Put "out" folder back in the project (oups!)
+## v2.2.1 2016 May 12
 
-v2.1.0 April 11, 2016
-	- added jsx test files
-	- increased babel version to 6.7.5
+-   fixed readme and history
 
-v2.0.5 September 9, 2015
-	- Added opinionated default options to babel
+## v2.2.0 2016 May 12
 
-v2.0.4 September 9, 2015
-	- Added compiled js in /out to make plugin functional out-of-the-box
+-   Added es2015 and react presets
 
-v2.0.3 September 9, 2015
-	- Cleanup by jking90
+## v2.1.1 2016 April 11
 
-v2.0.2 September 9, 2015
-	- Removed superfluous files
+-   Put "out" folder back in the project (oups!)
 
-v2.0.1 September 9, 2015
-	- Fixed dependencies
+## v2.1.0 2016 April 11
 
-v2.0.0 September 9, 2015
-	- Release
+-   added jsx test files
+-   increased babel version to 6.7.5
+
+## v2.0.5 2015 September 9
+
+-   Added opinionated default options to babel
+
+## v2.0.4 2015 September 9
+
+-   Added compiled js in /out to make plugin functional out-of-the-box
+
+## v2.0.3 2015 September 9
+
+-   Cleanup by jking90
+
+## v2.0.2 2015 September 9
+
+-   Removed superfluous files
+
+## v2.0.1 2015 September 9
+
+-   Fixed dependencies
+
+## v2.0.0 2015 September 9
+
+-   Release

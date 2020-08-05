@@ -1,25 +1,28 @@
-# February 12, 2015
-# https://github.com/bevry/base
+version: ~> 1.0
+sudo: false
 language: node_js
-# install npm@1 so we can install npm@2 so we can ensure we have the latest version (can't install npm@2 directly on 0.8 as their bundled npm is too old)
-# ensure coffee-script is installed (needed for cake commands)
-# ensure dev dependencies are installed (handled via npm install)
-# ensure test dependencies are installed (handled via cake install)
-install: "npm install -g npm@1 && npm install -g npm@2 && npm install coffee-script && npm install && ./node_modules/.bin/cake install"
-# ensure our application is compiled before we run our tests
-before_script: "./node_modules/.bin/cake compile"
-script: "npm test"
 node_js:
-  - "0.8"
-  - "0.10"
-  - "0.12"
-  - iojs
-cache:
-  directories:
-    - node_modules
+  - '10'
+  - '12'
+  - '13'
+  - '14'
+matrix:
+  fast_finish: true
+  allow_failures: []
+cache: npm
+install:
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/master/scripts/node-install.bash)"
+before_script:
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/master/scripts/node-verify.bash)"
+after_success:
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/master/scripts/node-publish.bash)"
 notifications:
-  irc:
-    - "irc.freenode.org#bevry-dev"
   email:
-    recipients:
-      - travisci@bevry.me
+    recipients: >-
+      na+NShVEXQyNpWOwsyHCxzYfIWoYxbb1cw4GWCQWdXhWcY6wrbh9g/2ZLLpL6UmJ02McAcLvdy8kawp5B/D/+HX28t13rsYjviQEsu5R6hK8PATgLns2a831G/wt9W2jO+isvizaGo859/t3/EGnz9xhqN9NQcgO/ff9JaIhpdYj1S8Nd43SnlIap1yYkoyS4drMKk5mzTMamT6c7JA82vfgsUCIVTxq6hOlAXlhE7TtxqOpenKqlbkwLCW9NlIzQQ5gFZZrq1nsm2LF4QJq8OuFd4o1gAiVnh+fN51TSy4knqIii+rKpoeqAKBnDK4nHq2ruZYXMDcDvkexuiUjkNm3+hr97ATZduO0f36FNW9RzGlGXKyMZzOJxJ50lRkvZWVRwVrCwncBvL24IuSS15Ffj0Vu/8lEwdw2KLHOfA2SW8ll4o+ocL1IggVJ+6KlCFn02ixXFa3TNCabMtibIKzY2Qw0u8MPI1sbvpJwspuW9CaW6e8yiWD3JtcfhGfVgpwURCTVC36HjQiwWb3R3J61GEQexROnTzdwO6Ew1iat1/E2y5msC9LzVhSUDiRa/+Prur2SCgr/Q2HXWpdEjG/moMIrdPzVZ4WuKGfdThbTxI2jxbCaov4iDKMNEsMGuP5gDSTtc0ZCYjQACLn8+uC47PLBjcYcyriVWOPbkok=
