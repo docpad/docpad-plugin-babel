@@ -45,13 +45,11 @@ Convention: `.js.babel`
 -   This is fixed easily with the [docplad-plugin-browserifydocs](https://github.com/docpad/docpad-plugin-browserifydocs) plugin:
     -   `docpad install browserifydocs`
     -   Add this to the top of your `.js.babel` file :
-    <pre>
-    				```
-    				---
-    				browserify: true
-    				---
-    				```
-    </pre>
+    	```
+    	---
+    	browserify: true
+    	---
+    	```
 
 <!-- INSTALL/ -->
 
