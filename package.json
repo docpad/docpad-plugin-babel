@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-babel",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "DocPad plugin to compile es-next to es5 using babel",
   "homepage": "https://github.com/docpad/docpad-plugin-babel",
   "license": "MIT",
@@ -79,7 +79,7 @@
   },
   "editions": [
     {
-      "description": "ESNext source code for Node.js 10 || 12 || 13 || 14 with Require for modules",
+      "description": "ESNext source code for Node.js 10 || 12 || 14 || 15 with Require for modules",
       "directory": "source",
       "entry": "index.js",
       "tags": [
@@ -89,31 +89,31 @@
         "require"
       ],
       "engines": {
-        "node": "10 || 12 || 13 || 14"
+        "node": "10 || 12 || 14 || 15"
       }
     }
   ],
   "type": "commonjs",
   "main": "source/index.js",
   "dependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
     "docpad-baseplugin": "^1.4.0"
   },
   "devDependencies": {
-    "@bevry/update-contributors": "^1.17.0",
+    "@bevry/update-contributors": "^1.18.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
     "docpad": "^6.83.2",
     "docpad-plugintester": "^1.7.3",
-    "eslint": "^7.8.1",
-    "eslint-config-bevry": "^3.22.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.12.1",
+    "eslint-config-bevry": "^3.23.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1",
-    "projectz": "^2.16.0",
-    "valid-directory": "^3.4.0"
+    "prettier": "^2.1.2",
+    "projectz": "^2.17.0",
+    "valid-directory": "^3.5.0"
   },
   "peerDependencies": {
     "docpad": "^6.83.2"
