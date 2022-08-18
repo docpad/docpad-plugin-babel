@@ -108,7 +108,7 @@ These amazing people have contributed code to this project:
 
 <ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-babel/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-babel">view contributions</a></li>
 <li><a href="https://github.com/danguilherme">Guilherme Ventura</a> — <a href="https://github.com/docpad/docpad-plugin-babel/commits?author=danguilherme" title="View the GitHub contributions of Guilherme Ventura on repository docpad/docpad-plugin-babel">view contributions</a></li>
-<li><a href="http://jimmyking.me">Jimmy King</a></li>
+<li><a href="http://jamieking.me">Jamie King</a></li>
 <li><a href="https://github.com/mikeumus">Michael Duane Mooring</a> — <a href="https://github.com/docpad/docpad-plugin-babel/commits?author=mikeumus" title="View the GitHub contributions of Michael Duane Mooring on repository docpad/docpad-plugin-babel">view contributions</a></li>
 <li><a href="http://mikeum.us">Michael Duane Mooring</a></li>
 <li><a href="https://github.com/sdomagala">Sebastian Domagala</a> — <a href="https://github.com/docpad/docpad-plugin-babel/commits?author=sdomagala" title="View the GitHub contributions of Sebastian Domagala on repository docpad/docpad-plugin-babel">view contributions</a></li>
